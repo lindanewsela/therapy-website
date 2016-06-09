@@ -1,0 +1,107 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.filter {
+  font-family: Gotham, Helvetica,sans-serif;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  text-align: center;
+  padding: 36px 0;
+  line-height: 0;
+  transition: color 0.5s ease;
+  border-top: 1px solid #123350;
+  border-bottom: 1px solid #123350;
+}
+
+
+body {
+  background-color: #2a94d6;}
+
+.name {
+     font-family: Gotham, Helvetica,sans-serif;
+     font-size:18px;
+     text-align: center;
+  }
+
+.title {
+     font-family: Gotham, Helvetica,sans-serif;
+     font-size: 12px;
+     text-transform: capitalize;
+     text-align: center;
+  }
+
+h1 {
+     font-family: Gotham, Helvetica,sans-serif;
+     font-size: 36px;
+     text-transform: capitalize;
+     text-align: center;
+  }
+
+  h2 {
+     font-family: Georgia,Times,serif;
+     font-size: 18px;
+     text-align: center;
+  }
+
+ h2 {
+     font-family: Gotham,Helvetica,sans-serif;
+     font-size: 18px;
+     text-align: center;
+     text-decoration: capitalize;
+  }
+
+hr {
+    border: none;
+    height: 1px;
+    widthL 519px
+    color: #333; 
+    align: left;
+}
+.cat-item{
+     font-family: Gotham, Helvetica, sans-serif;
+     font-size: 14px
+     letter-spacing: 0.15em;
+     display: inline-block;
+     text-align: left;
+     padding: 10px 20px;
+     border:1px solid #2a94d6;
+     border-radius: 3px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     text-decoration: none
+     color:#2a94d6;
+     transition: background-color 0.5s ease;
+}
+
+.cat-item:hover{
+     background-color: #1E6098;
+     text-decoration: none
+     color:#ffffff;
+}
+
+.selected {
+     background-color: #1E6098;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
